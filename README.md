@@ -1,1 +1,1 @@
-# senkosamplesite.github.io
+# SenkoLegend.github.io
