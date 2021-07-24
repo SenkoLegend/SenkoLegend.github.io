@@ -23,9 +23,7 @@ body {
     z-index: 2;
     cursor: pointer;
     width: 80px;
-    max-width: 160px;
     height: 80px;
-    max-height: 160px;
     opacity: 0;
 }
 .menu-wrap .hamburger {
@@ -35,9 +33,7 @@ body {
     left: 0;
     z-index: 1;
     width: 80px;
-    max-width: 160px;
     height: 80px;
-    max-height: 160px;
     padding: 1rem;
     background-color: black;
     display: flex;
