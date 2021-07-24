@@ -22,8 +22,8 @@ body {
     left: 0;
     z-index: 2;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     opacity: 0;
 }
 .menu-wrap .hamburger {
@@ -32,8 +32,8 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding: 1rem;
     background-color: black;
     display: flex;
@@ -44,7 +44,7 @@ body {
 .menu-wrap .hamburger > div {
     position: relative;
     width: 100%;
-    height: 2px;
+    height: 4px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@ body {
     content: '';
     position: absolute;
     z-index: 1;
-    top: -10px;
+    top: -15px;
     width: 100%;
-    height: 2px;
+    height: 4px;
     background: inherit;
 }
 /* Moves line down */
 .menu-wrap .hamburger > div:after {
-    top: 10px;
+    top: 15px;
 }
 /* Toggler animation */
 .menu-wrap .toggler:checked + .hamburger > div {
@@ -128,8 +128,8 @@ body {
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 2.5rem;
+    padding: 2rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -177,6 +177,7 @@ body {
 #parallaxa .parallaxa01 {
     padding-top: 20px;
     padding-bottom: 20px;
+    
     width: 100%;
     overflow: hidden;
     position: relative;
